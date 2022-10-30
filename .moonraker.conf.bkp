@@ -23,6 +23,7 @@ cors_domains =
 [database]
 
 [file_manager]
+queue_gcode_uploads = True
 
 [octoprint_compat]
 
@@ -59,4 +60,7 @@ requirements = requirements.txt
 install_script = install.sh
 managed_services = 
 	moonraker-obico
+
+[job_queue]
+load_on_startup = True
 
