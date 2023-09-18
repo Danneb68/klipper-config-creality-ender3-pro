@@ -56,19 +56,3 @@ initial_state: off
 
 [job_queue]
 load_on_startup: True
-# Crowsnest update_manager entry
-[update_manager crowsnest]
-type: git_repo
-path: ~/crowsnest
-origin: https://github.com/mainsail-crew/crowsnest.git
-managed_services: crowsnest
-install_script: tools/pkglist.sh
-
-
-[update_manager led_effect]
-type: git_repo
-path: ~/klipper-led_effect
-origin: https://github.com/julianschill/klipper-led_effect.git
-is_system_service: False
-
-
