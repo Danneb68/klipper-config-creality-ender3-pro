@@ -46,7 +46,6 @@ address = 192.168.0.8
 restart_klipper_when_powered = True
 restart_delay = 10
 on_when_job_queued = True
-bound_services = klipper
 
 [power Light]
 type = gpio
